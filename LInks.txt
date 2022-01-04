@@ -1,0 +1,82 @@
+ReactJS project is nothing but a NodeJs Project
+
+ReactJS have internal WebServer Nginix
+
+Ctrl + C = Stop the react App
+
+So Backend Deveoper Creates API for You(ReactJS Developer)
+
+REactJS Application required API
+API Application Programing Interface
+
+How to get ReadyMade Real APIs so that we can focus on ReactJS Develelopment ?
+
+1. Fake REST API
+	https://jsonplaceholder.typicode.com/
+	https://fakerestapi.azurewebsites.net/index.html
+
+2. Strapi HeadLess CMS (Content Management System)  (Higly Recommend)
+	ReadyMade Real API
+
+	npx create-strapi-app@latest my-project
+
+	npm run develop
+
+	Internet Spedd Should be high
+	SSD and 4G Operatig System WIN 10
+	Airtel Fiber 5G 100 MBps
+	409 MB
+
+3. Hire a Backend Developer  
+
+
+API Testing Tools (Software)
+
+1. POSTMAN
+	API Testing
+
+	https://www.postman.com/downloads/
+	
+2. SwaggerUI (Strapi Plugin for SwaggerUI Documentation)
+	API Testing and Documentation Tool
+
+	https://strapi.io/blog/api-documentation-plugin
+
+	npm run strapi install documentation
+
+CRUD API
+C = Create
+R = Read
+U = Update
+D = Delete
+
+
+Types OF API
+1. Authenticated API
+2. Public API
+
+
+You can launch ReactJS Application in Development Mode
+	npm start
+	http://localhost:4000/
+
+You can to lauch ReactJS Application for Production
+	1. IS to build the react APP(Website)
+		npm run build
+	2.	serve -s build
+
+npm start   vs npm run build
+
+
+SwaggerUI is nothing but a API Testing and Documentation Tools
+Postman is nothing but a API Testing Tools
+
+
+
+
+
+
+
+
+
+

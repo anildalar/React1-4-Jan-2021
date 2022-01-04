@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// Import Area
+// We are going to import something/elements from somelibrary
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './Componets/App';
+
+//Where are these libraries  react and react-dom
+// THe library are available in node_modules directory
+
+//How some objecte are created
+
+
+//someobject.somemethod();
+
+//ReactDOM.render(Kya,Kaha);
+///ReactDOM.render(what,where);
+//ReactDOM.render(TheComponenntName,);
+
+ReactDOM.render(<App />,document.getElementById("oklabs"));

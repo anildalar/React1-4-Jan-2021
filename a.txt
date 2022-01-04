@@ -1,0 +1,40 @@
+Now create some external Compoent
+
+How we can create a compoent
+1. RFC React Functional Component
+2. RCC is now depericated 
+
+
+What is the structure of Functional Compoent ?
+
+
+
+1. States (Optional)
+2. Functions (Optional)
+3. Return Statement (Mendatory)
+
+There can be nested COmpoents
+
+So Compoents can be Exported and Imported
+
+
+How we can export the compoents?
+1. Default Export
+2. Named Export
+
+
+Lets Create Some Data/State of My Compoents
+
+
+When to make the api call ?
+
+Ans:- As soon as my App Component Render i want to make api call
+
+
+
+
+
+
+
+ 
+
