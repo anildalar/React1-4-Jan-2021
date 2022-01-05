@@ -1,28 +1,50 @@
+//1. Import Area
+
 import React, { useState } from 'react'
+import {
+        BrowserRouter as Router,
+        Route,
+        Routes,
+        Link
+    } from 'react-router-dom'
+
+import '../App.css'
+
+
+import Contact from './Contact'
+import Home from './Home'
+
 
 export default function App() {
     //1. State/Variable
-    var name = 'Anil'//Simple Variable
-
-    //HOOK Variable
-    const [surname, setSurname] = useState('DOLLOR')
-
 
     //2. Functions
 
 
     //3. Return Statement
     return (
-        <div>
-            <h2>Hello {name} {surname} App Compoent</h2>
-
-            <ul class="list-group">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                <li class="list-group-item">A fourth item</li>
-                <li class="list-group-item">And a fifth one</li>
-            </ul>
-        </div>
+        <Router>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">About</Link>
+                        </li>
+                    </ul>
+                </nav>
+                <Routes>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                    <Route path="/contact">
+                        <Contact />
+                    </Route>
+                
+                </Routes>
+            </div>
+        </Router>
     )
 }
